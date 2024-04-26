@@ -12,56 +12,50 @@
     />
     <title>PORTAFOLIO WEB LV</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   </head>
   <body>
     <!--MENÚ ENCABEZADO -->
-    <div class="contenedor-header">
-      <header>
-        <div class="logo">
-          <a href="#">Valentina</a>
-        </div>
-        <nav id="nav">
-          <ul>
-            <li>
-              <a href="#inicio">INICIO</a>
-              <a href="#sobremi">SOBRE MI</a>
-              <a href="#skills">SKILLS</a>
-              <a href="#portafolio">PORTAFOLIO</a>
-              <a href="#contacto">CONTACTO</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="nav-responsive">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-      </header>
-    </div>
+    <header class="header">
+      <a href="#" class="logo">Valentina</a>
+      <nav class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#sobremi">SOBRE MI</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#portafolio">PORTAFOLIO</a>
+        <a href="#contacto">CONTACTO</a>
+      </nav>
+      <div class="nav-responsive">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
 
-    <!--SECCIONES INICIO - SOBRE MÍ -->
-    <section class="contenido-secciones">
-      <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
-          <h2>Sobre Mí</h2>
-          <p>
-            <span>Hola, soy Valentina...</span> Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Aperiam ratione aliquam eveniet nobis?
-            Est pariatur maxime ea culpa, mollitia autem, ad saepe animi placeat
-            expedita dicta possimus quis maiores quidem!
-          </p>
+    <!--SECCION HOME -->
+    <section class="home">
+      <div class="home-contenido">
+        <h3>Hola, mi nombre es</h3>
+        <h1>Valentina</h1>
+        <h3>Soy <span class="text"></span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+          dolore quia adipisci. Porro fugit itaque dolores cupiditate corporis
+          doloremque aut, quasi deleniti ex cumque magnam, doloribus hic iusto
+          accusamus provident.
+        </p>
+        <div class="home-redes">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
         </div>
-      </section>
-      <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-          <div class="contenedor-img">
-            <img src="img/robot.png" alt="" />
-          </div>
-          <h1>Valentina Tellez</h1>
-          <h2>Ingeniera de Software</h2>
-          <div class="redes">
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-          </div>
+        <a href="#" class="btn-box">Descargar CV</a>
+      </div>
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/robot.png" alt="" />
         </div>
-      </section>
+      </div>
     </section>
+    <script src="script.js"></script>
+
+    <!--SECCIONES SKILLS -->
+    <div></div>
   </body>
 </html>
